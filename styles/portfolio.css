@@ -63,10 +63,28 @@ nav ul{
     font-size: 45px;
     font-weight: 600;
 }
+.bannar-content{
+    max-width: 580px;
+}
 .banner-titles{
     font-weight: bold;
     font-size: 85px;
 }
 .bannar-description{
     font-size: 18px;
+}
+.bannar-profile-pic{
+    width: 580px;
+}
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+
+}
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:  top left, right bottom;
 }
